@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>SpaceInvaders</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+      <Folder Include="Images\" />
+    </ItemGroup>	
+	
+    <ItemGroup>
+      <None Remove="Images\invader1.gif" />
+      <None Remove="Images\invader2.gif" />
+      <None Remove="Images\invader3.gif" />
+      <None Remove="Images\invader4.gif" />
+      <None Remove="Images\invader5.gif" />
+      <None Remove="Images\invader6.gif" />
+      <None Remove="Images\invader7.gif" />
+      <None Remove="Images\invader8.gif" />
+      <None Remove="Images\player.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Images\invader1.gif" />
+      <Resource Include="Images\invader2.gif" />
+      <Resource Include="Images\invader3.gif" />
+      <Resource Include="Images\invader4.gif" />
+      <Resource Include="Images\invader5.gif" />
+      <Resource Include="Images\invader6.gif" />
+      <Resource Include="Images\invader7.gif" />
+      <Resource Include="Images\invader8.gif" />
+      <Resource Include="Images\player.png" />
+    </ItemGroup>
+
+    
+
+</Project>
